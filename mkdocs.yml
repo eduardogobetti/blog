@@ -1,0 +1,77 @@
+site_name: Gobetti.dev.br
+site_author: Eduardo Gobetti
+# nav:
+#   - Home: index.md
+#   - Kubernetes:
+#       - Tutorials: tutorials/index.md
+#       - K3s: tutorials/k3s.md
+#   - Blog:
+#     - blog/index.md
+theme:
+  name: material
+  # custom_dir: material/.overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  # favicon: assets/favicon.png
+  icon:
+    logo: logo
+  plugins:
+    - tags:
+        enabled: !ENV [CI, false]
+    - blog:
+      blog_dir: blog
+      blog_toc: true
+      post_date_format: full
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/eduardogobetti/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/eduardo-gobetti/
+
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/eduardogobetti/"  target="_blank" rel="noopener">Eduardo Gobetti</a>   
