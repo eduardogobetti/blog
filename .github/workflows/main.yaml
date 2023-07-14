@@ -6,6 +6,10 @@ on:
       - main
 
 jobs:
+  strategy:
+    matrix:
+      platform: [x86, arm]
+
   ci:
       name: Build Container
       runs-on: ubuntu-latest
@@ -24,4 +28,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: eduardogobetti/blog:latest, eduardogobetti/blog:v${{github.run_number}}       
+          tags: eduardogobetti/blog:${{ matrix.platform }}-latest, eduardogobetti/blog:${{ matrix.platform }}-v${{ github.run_number }}
+          file: docker/${{ matrix.platform }}/Dockerfile  
