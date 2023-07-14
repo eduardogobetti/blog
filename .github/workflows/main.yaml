@@ -6,14 +6,14 @@ on:
       - main
 
 jobs:
-  strategy:
-    matrix:
-      platform: [x86, arm]
-
   ci:
-      name: Build Container
-      runs-on: ubuntu-latest
-      steps:
+    name: Build Container
+    runs-on: ubuntu-latest  
+    strategy:
+        matrix:
+          platform: [x86, arm]
+
+    steps:          
       - name: Checkout Code
         uses: actions/checkout@v3
 
