@@ -1,9 +1,9 @@
 ---
 tags:
   - Linux
-  - ssh
+  - Ssh
 ---
-# ssh-keygen
+# Ssh-keygen
 
 Gerar e Copiar Chaves SSH com o `ssh-keygen`
 o `ssh-keygen` é uma ferramenta utilizada para gerar pares de chaves SSH para autenticação segura em servidores remotos. 
