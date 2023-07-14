@@ -58,6 +58,7 @@ extra:
       link: mailto:eduardo.gobetti@gmail.com
 
 markdown_extensions: 
+  - tables
   - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
@@ -77,5 +78,11 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
+      
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+
+
 copyright: |
   &copy; 2023 <a href="https://github.com/eduardogobetti/"  target="_blank" rel="noopener">Eduardo Gobetti</a>   

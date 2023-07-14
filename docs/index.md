@@ -17,8 +17,13 @@ Navegar pelo blog é simples e intuitivo. Utilize a barra de navegação no topo
 
 ## Entre em Contato
 Adoraria ouvir sua opinião e feedback sobre os artigos ou qualquer outra sugestão que possa ter. 
-Não hesite em entrar em contato comigo através das minhas redes sociais no rodapé. Estou ansioso para trocar ideias e compartilhar conhecimentos com você.
+Não hesite em entrar em contato comigo através das minhas redes sociais no rodapé. 
+Estou ansioso para trocar ideias e compartilhar conhecimentos com você.
 
-Agradeço por visitar meu blog e espero que encontre aqui informações valiosas e inspiradoras para sua própria jornada. 
+Se você encontrar alguma falha no conteúdo ou desejar contribuir de alguma forma, 
+fique à vontade para submeter um pull request no [repositório do blog](https://github.com/eduardogobetti/blog). 
+Sua contribuição será muito bem-vinda!
+
+Agradeço por visitar meu blog e espero que encontre aqui informações valiosas e inspiradoras para sua própria jornada.
 
 Divirta-se explorando!
